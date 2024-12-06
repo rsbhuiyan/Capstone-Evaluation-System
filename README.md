@@ -1,6 +1,6 @@
 # <img src = "app/images/wsulogo.svg.png" width="50" height="50"> Capstone-Course-Evaluation-System
 
-<img src="app/images/cces.png" height="240" align ="center">
+![image](https://github.com/user-attachments/assets/55514e75-edb4-4f5a-9ab1-315fac819b7f)
 
 [Introduction](#introduction) | [About the Project](#about) | [Using the Application](#using) | [Contributing](#contributing)
 
