@@ -1,0 +1,80 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  /* color optimization */
+  line-height: 1.6;
+  /* Increase line-height for better readability */
+}
+
+.textarea {
+    width: 500px;
+    min-height: 100px;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .tab-content {
+    margin: 20px;
+  }
+
+  .table {
+    padding: 10px;
+  }
+
+  #updateBTN {
+    background-color: #A9F3E9;
+    margin: 10px;
+    font-weight: bold;
+  }
+
+   
+  #updateBTN {
+    background-color: #A9F3E9;
+    margin: 10px;
+    font-weight: bold;
+  }
+
+  #sectionTab li {
+    background: #c3c3c3;
+  }
+
+  #assignmentTab li {
+    background: #f4f4f4;
+  }
+
+  #groupTab li {
+    background: #dbdbdb;
+  }
+
+  #sectionTab .active {
+    background: #76aaa3;
+  }
+
+  #assignmentTab .active {
+    background: #d4f9f4;
+  }
+
+  #groupTab .active {
+    background: #98dad1;
+  }
+
+  #sectionTab {
+    margin-top: 30px;
+
+  }
+
+  .grouptd:nth-child(1) {
+    width: 25%;
+  }
+
+  .nav-item {
+    color: #008C81;
+
+  }
+
+  nav-link:active {
+    background-color: #A9F3E9;
+  }

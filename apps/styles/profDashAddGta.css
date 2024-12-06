@@ -1,0 +1,99 @@
+
+    
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  /* Adding the scroll bar to the two tables */
+  .table-scroll {
+    max-height: 400px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    /* For smooth scrolling on iOS devices */
+  }
+
+  table tr:first-child th {
+    color: black;
+  }
+
+ th,
+  td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+  }
+
+
+  .form-control {
+    color: var(--input-text-color);
+    /* Use a more accessible font color for the text input */
+  }
+
+  .gtas-container {
+    display: flex;
+    justify-content: space-between;
+    /* Add space between the activated and deactivated containers */
+  }
+
+  .activated,
+  .deactivated {
+    width: 49%;
+  }
+
+
+  .add-gta-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    width: auto;
+    justify-content: center;
+  }
+
+  .add-gta-btn:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .circle-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle-icon i {
+    color: white;
+    font-size: 40px;
+    align-items: center;
+  }
+
+  
+    /* Change textbox from blue to green */
+    textarea:focus,
+    input[type="text"]:focus,
+    input[type="color"]:focus,
+    .uneditable-input:focus {
+      border-color: #008C81;
+      box-shadow: 0 0 0 0.2rem rgba(0, 140, 129, 0.25);
+      outline: 0 none;
+    }
+
+    /* Fade out for the alert message */
+    .fade-out-alert {
+      opacity: 1;
+      transition: opacity 1s ease-out;
+
+    }
+
+   

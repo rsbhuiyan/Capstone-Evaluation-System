@@ -1,0 +1,105 @@
+:root {
+  --primary-color: #008C81;
+  --background-color: #F5F5F5;
+  --text-color: #008C81;
+  --button-color: #88D7C0;
+  --button-hover-color: #F0F0F0;
+  --container-bg-color: #F5F5F5;
+  --section-bg-color: #FFFFFF;
+  --table-header-color: #008C81;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+ul {
+  margin: 10px;
+}
+
+.navbar {
+  /* Color optimization */
+  background-color: var(--primary-color);
+  padding: 10px;
+  font-weight: 700;
+}
+
+.nav-item {
+  color: #008C81;
+}
+
+nav-link:active {
+  background-color: #A9F3E9;
+}
+
+h1,
+h3 {
+  text-align: center;
+
+}
+
+/* Style active navigation links */
+nav-link:active {
+  background-color: #A9F3E9;
+}
+
+.headRowSum {
+  background-color: #008C81;
+  color: white;
+  text-shadow: .7px .7px #000000;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.nav-link {
+  color: black;
+}
+
+/* Style tab content */
+.tab-content {
+  margin: 20px;
+}
+
+/* Style tables */
+.table {
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .05), 2px 2px 5px rgba(0, 0, 0, .1);
+  border-radius: 4px;
+}
+
+.table tbody {
+  margin: 0;
+}
+
+/* Style the tab navigation element */
+#myTab {
+  margin-top: 70px;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ;
+  /* Vertical align the elements to the center */
+}
+
+.weeklyreportsTitle {
+  margin: 0;
+}
+
+#flagbtn {
+  margin-left: 20px;
+  font-weight: bold;
+  padding: 10px;
+
+  /* Push this element to the right */
+}

@@ -1,0 +1,76 @@
+ html,
+ body {
+   margin: 0;
+   height: 100%;
+ }
+
+ .weekbtn {
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
+ }
+
+ table tr td,
+ table tr th {
+   /* border: 1px solid black; */
+   padding: 25px;
+ }
+
+ .headRow {
+   background-color: #dfe3e8;
+   position: sticky;
+   top: 56px;
+   /* Don't forget this, required for the stickiness */
+   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+ }
+
+ .headRowSum {
+   background-color: #A9F3E9;
+   position: sticky;
+   top: 56px;
+   /* Don't forget this, required for the stickiness */
+   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+ }
+
+
+ /* your colors */
+ .legend .ontime {
+   background-color: #A9F3E9;
+ }
+
+ .legend .latesubmission {
+   background-color: #f3caa9;
+ }
+
+ .legend .nosubrevoked {
+   background-color: #FCD0CF;
+ }
+
+ .legend .incomplete {
+   background-color: #f3f2a9;
+ }
+
+ /* basic positioning */
+ .legend {
+   list-style: none;
+   margin-left: auto;
+   width: 45%;
+   margin-right: auto;
+ }
+
+ .legend li {
+   float: left;
+   margin-right: 10px;
+ }
+
+ .legend span {
+   border: 1px solid #ccc;
+   float: left;
+   width: 20px;
+   height: 20px;
+   margin: 4px;
+ }
+
+ .btn-primary {
+   width: 12%;
+ }

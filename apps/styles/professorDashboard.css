@@ -1,0 +1,62 @@
+.formtab {
+    background-color: var(--section-bg-color);
+    margin: auto;
+    color: var(--input-text-color);
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .05), 2px 2px 5px rgba(0, 0, 0, .1);
+  }
+
+  table {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .05), 2px 2px 5px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  button .updatebtn {
+    background-color: #A9F3E9;
+    margin: 10px;
+    font-weight: bold;
+  }
+
+  #sectionTab li {
+    background: #c3c3c3;
+  }
+
+  #assignmentTab li {
+    background: #f4f4f4;
+  }
+
+  #groupTab li {
+    background: #dbdbdb;
+  }
+
+  #sectionTab .active {
+    background: #76aaa3;
+  }
+
+  #assignmentTab .active {
+    background: #d4f9f4;
+  }
+
+  #groupTab .active {
+    background: #98dad1;
+  }
+
+  #sectionTab {
+    margin-top: 30px;
+
+  }
+
+  .grouptd:nth-child(1) {
+    width: 25%;
+  }
+
+  th,
+  td {
+    padding: 20px;
+  }
+
+  ul {
+    margin: 10px;
+  }

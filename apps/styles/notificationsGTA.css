@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.btnedit {
+    background-color: #A9F3E9;
+  }
+
+  .btnedit:hover {
+    background-color: #A9F3E9;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }

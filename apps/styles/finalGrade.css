@@ -1,0 +1,71 @@
+th,
+td {
+    padding: 10px;
+}
+
+ul {
+    margin: 10px;
+}
+
+#groupTab li {
+    background: #c3c3c3;
+}
+
+#studentTab li {
+    background: #dbdbdb;
+}
+
+#groupTab .active {
+    background: #76aaa3;
+}
+
+#studentTab .active {
+    background: #d4f9f4;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+h1,
+h4 {
+    margin-left: 15px;
+}
+
+table {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .05), 2px 2px 5px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-item {
+    color: #008C81;
+}
+
+nav-link:active {
+    background-color: #A9F3E9;
+}
+
+.tab-content {
+    margin: 20px;
+}
+
+.textareasmall {
+    min-height: 40px;
+}
+
+.textarea {
+    display: block;
+    width: 700px;
+    overflow: hidden;
+    resize: both;
+    min-height: 40px;
+    max-width: 700px;
+    line-height: 20px;
+    background-color: white;
+    color: black;
+}
+

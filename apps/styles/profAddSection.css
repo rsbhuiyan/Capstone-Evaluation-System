@@ -1,0 +1,20 @@
+
+
+    /* Set box sizing property to border box for all elements on webpage */
+    * {
+      box-sizing: border-box;
+    }
+
+    .ftco-section h3 {
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+
+
+    .form-control {
+      color: var(--input-text-color);
+      /* Use a more accessible font color for the text input */
+    }
+
+
+   

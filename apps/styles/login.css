@@ -1,0 +1,138 @@
+:root {
+  --primary-color: #008C81;
+  --background-color: #F5F5F5;
+  --text-color: #008C81;
+  --button-color: #88D7C0;
+  --button-hover-color: #F0F0F0;
+  --container-bg-color: #F5F5F5;
+  --section-bg-color: #FFFFFF;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #008C81;
+  box-shadow: 0 0 0 0.2rem rgba(0, 140, 129, 0.25);
+  outline: 0 none;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: black;
+  /* color optimization */
+  background-color: var(--button-color);
+  transition: background-color 0.3s ease;
+  /* Add smooth transition for button hover effect */
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  /* color optimization */
+  background-color: var(--button-hover-color);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+label {
+  font-size: 25px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.error {
+  color: #FF6E6B;
+  font-size: 18px;
+}
+.capTitle {
+  margin-left: 870px;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+
+}
+.ftco-section {
+    background-color: var(--section-bg-color);
+    margin: auto;
+    color: var(--input-text-color);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .05), 2px 2px 5px rgba(0, 0, 0, .1);
+    width: 50%;
+    margin-top: 8%;
+  }
+  
+  label {
+    font-size: 25px;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .error {
+    color: #FF4B47;
+    font-size: 18px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    h3.capTitle {
+      margin-left: 0px;
+    }
+
+    a.titleLabel {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    img.wsuimg {
+      margin-top: -40px;
+      margin-left: 320px;
+    }
+  
+  
+    h1 {
+      font-size: 2.2em;
+    }
+
+    .ftco-section {
+      width: 100%;
+      margin-top: 30%;
+    }
+
+    label {
+      font-size: 30px;
+    }
+
+    input[type=submit] {
+      font-size: 20px;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    /*or anything you want to do*/
+  }

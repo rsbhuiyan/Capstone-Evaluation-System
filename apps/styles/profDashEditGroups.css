@@ -1,0 +1,48 @@
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    /* Adding the scroll bar to the two tables */
+    .table-scroll {
+      max-height: 400px;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      /* For smooth scrolling on iOS devices */
+    }
+
+    table tr:first-child th {
+      color: black;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: 12px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .form-control {
+      color: var(--input-text-color);
+      /* Use a more accessible font color for the text input */
+    }
+
+    .btn {
+      padding: 6px 12px;
+      border-radius: 4px;
+      color: black;
+      /* color optimization */
+      background-color: var(--button-color);
+      transition: background-color 0.3s ease;
+      /* Add smooth transition for button hover effect */
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .btn:hover {
+      /* color optimization */
+      background-color: var(--button-hover-color);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+    

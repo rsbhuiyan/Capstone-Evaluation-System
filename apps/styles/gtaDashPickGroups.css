@@ -1,0 +1,53 @@
+ /* Nav Bar */
+
+ .navbar {
+    /* Color optimization */
+    background-color: var(--primary-color);
+    padding: 10px;
+    font-weight: 700;
+  }
+
+  .nav-item {
+    color: #008C81;
+  }
+
+  nav-link:active {
+    background-color: #A9F3E9;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  /* Adding the scroll bar to the two tables */
+  .table-scroll {
+    max-height: 400px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    /* For smooth scrolling on iOS devices */
+  }
+
+  table tr:first-child th {
+    color: black;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #countnotif {
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: -10px;
+  }

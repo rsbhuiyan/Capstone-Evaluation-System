@@ -1,0 +1,138 @@
+@media only screen and (max-width: 950px) {
+    .ftco-section {
+      width: 90%;
+      margin-top: 30%;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+  }
+  :root {
+    --primary-color: #008C81;
+    --background-color: #F5F5F5;
+    --text-color: #008C81;
+    --button-color: #88D7C0;
+    --button-hover-color: #F0F0F0;
+    --container-bg-color: #F5F5F5;
+    --section-bg-color: #FFFFFF;
+  }
+
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+  }
+
+  .navbar {
+    /* Color optimization */
+    background-color: var(--primary-color);
+    padding: 10px;
+    font-weight: 700;
+  }
+  .nav-item {
+    color: #008C81;
+  }
+
+  nav-link:active {
+    background-color: #A9F3E9;
+  }
+h1{
+  margin:10px;
+}
+  /* Change textbox from blue to green */
+  textarea:focus,
+  input[type="text"]:focus,
+  input[type="color"]:focus,
+  .uneditable-input:focus {
+    border-color: #008C81;
+    box-shadow: 0 0 0 0.2rem rgba(0, 140, 129, 0.25);
+    outline: 0 none;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  /* Adding the scroll bar to the two tables */
+  .table-scroll {
+    max-height: 400px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    /* For smooth scrolling on iOS devices */
+  }
+
+  table tr:first-child th {
+    color: black;
+  }
+  th,
+  td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .form-control:hover,
+  .form-control:focus {
+    border-color: #A9F3E9;
+    /* Add hover effect to input fields */
+  }
+
+  .error {
+    color: #FF6E6B;
+  }
+    
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    /*margin-bottom to separate the containers */
+    padding: 20px;
+    background-color: var(--container-bg-color);
+    /*light grey background color */
+    border-radius: 8px;
+    /*border-radius for a softer look */
+  }
+
+  .ftco-section {
+    background-color: var(--section-bg-color);
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: var(--input-text-color);
+  }
+
+  .ftco-section h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .semesters-container {
+    display: flex;
+    justify-content: center;
+    /* Add space between the activated and deactivated containers */
+  }
+
+  .activated{
+    width: 49%;
+  }
+
+  .semesterpagebtn {
+    background-color: #A9F3E9;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .4) 0 -15px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 10px;
+  }

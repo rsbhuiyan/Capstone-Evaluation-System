@@ -1,0 +1,182 @@
+:root {
+  --primary-color: #008C81;
+  --background-color: #F5F5F5;
+  --text-color: #008C81;
+  --button-color: #88D7C0;
+  --button-hover-color: #F0F0F0;
+  --container-bg-color: #F5F5F5;
+  --section-bg-color: #FFFFFF;
+  --table-header-color: #008C81;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.grouppagebtn {
+  background-color: #87C2BA;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .4) 0 -15px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 10px;
+}
+
+.studentpagebtn {
+  background-color: #A9F3E9;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .4) 0 -15px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 10px;
+}
+
+.studentName {
+  margin-top: 10px;
+}
+
+.grouppagebtn:hover,
+.studentpagebtn:hover {
+  box-shadow: rgba(44, 187, 99, .35) 0 -15px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.thestudents {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.groupBtns {
+  display: inline-block;
+}
+
+.bgimg:after {
+  content: '';
+  background: url('1280-ZoomBackgrounds_CAM3.jpg') repeat center center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.55;
+  /* Here is your opacity */
+}
+
+.bgimg {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px;
+  font-weight: bolder;
+  text-align: center;
+  color: #F3F7FC;
+  text-shadow: .7px .7px #000000;
+}
+
+
+.btn {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: black;
+  /* color optimization */
+  background-color: var(--button-color);
+  transition: background-color 0.3s ease;
+  /* Add smooth transition for button hover effect */
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  /* color optimization */
+  background-color: var(--button-hover-color);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+p {
+  text-align: center;
+  padding: 12px;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Create green buttons */
+.green-button {
+  background-color: #88D7C0;
+  text-shadow: .3px .3px black;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.green-button:hover {
+  background-color: #006f6a;
+  cursor: pointer;
+}
+
+.card.transparent {
+  background-color: transparent;
+  border: none;
+}
+
+/* Nav Bar */
+
+.navbar {
+  /* Color optimization */
+  background-color: var(--primary-color);
+  padding: 10px;
+  font-weight: 700;
+}
+
+.nav-item {
+  color: #008C81;
+}
+
+nav-link:active {
+  background-color: #A9F3E9;
+}
+
